@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.ipynb_checkpoints
+
+# MCNP
+*.out
+*.o
+*.log
+*.run
+*.r
+*.meshtal
+*.mctal
+
+# MATLAB
+*.mlx
+*.mat
+*.mex*
+
+# CAD Files
+*.step
+*.stl
+*.iges
+*.igs
+*.dwg
+*.dxf
+*.sldprt
+*.sldasm
+*.3dm
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
+
+# Operating System Files
+.DS_Store
+Thumbs.db
