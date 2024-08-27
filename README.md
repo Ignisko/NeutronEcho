@@ -20,7 +20,7 @@ To run this project, you need the following installed on your system:
 
 - **Windows Subsystem for Linux (WSL)**: Allows you to run a Linux environment on Windows.
 - **Ubuntu**: Installed within WSL.
-- **Miniconda**: A lightweight version of Anaconda that includes conda, an environment and package manager.
+- **Miniconda**: A lightweight version of Anaconda that includes conda, an environment and package manager. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)
 - **OpenMC**: An open-source Monte Carlo code for neutron transport.
 
 ### Installation
@@ -31,18 +31,9 @@ Follow these steps to set up the project on your local machine:
    - Follow [this guide](https://docs.microsoft.com/en-us/windows/wsl/install) to install WSL and Ubuntu.
 
 2. **Set Up Conda Environment**:
-   - Download and install Miniconda in Ubuntu:
-     ```bash
-     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-     bash Miniconda3-latest-Linux-x86_64.sh
-     ```
-   - Follow the prompts during installation, then restart your shell:
-     ```bash
-     source ~/.bashrc
-     ```
+   - Download and install Miniconda by following [these instructions](https://docs.anaconda.com/miniconda/miniconda-install/).
+   - After installing Miniconda, open a new terminal and run the following commands:
 
-3. **Install OpenMC**:
-   - Create a new conda environment and install OpenMC:
      ```bash
      conda config --add channels conda-forge
      conda create -n openmc-env
@@ -89,4 +80,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ## Contact
 
 For any questions or inquiries, please reach out to: [iggyspolski@gmail.com](mailto:iggyspolski@gmail.com)
-
