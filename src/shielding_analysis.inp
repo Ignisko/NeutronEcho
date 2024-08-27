@@ -1,0 +1,18 @@
+c Simple MCNP input file example
+c Geometry
+1  1  -10.0  -1  2  imp:n=1
+2  0       1  -2  imp:n=0
+
+c Surfaces
+1  cz 50.0
+2  pz 50.0
+
+c Materials
+m1 1001 1.0
+
+c Source
+sdef pos=0 0 0 erg=14.0
+
+c Run parameters
+kcode 10000 1.0 20 60
+
